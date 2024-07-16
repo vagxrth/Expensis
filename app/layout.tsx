@@ -8,6 +8,9 @@ const ibmPlexSerif = IBM_Plex_Serif({ subsets: ["latin"], weight: ["400", "700"]
 export const metadata: Metadata = {
   title: "Expensis",
   description: "Finance Management Application",
+  icons: {
+    icon: ".app/favicon.ico",
+  }
 };
 
 export default function RootLayout({
